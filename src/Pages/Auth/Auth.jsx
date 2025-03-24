@@ -1,6 +1,7 @@
 import { Box, Container, Flex, Image, VStack } from '@chakra-ui/react'
 import React from 'react'
-import AuthForm from '../../Auth/AuthForm/AuthForm'
+import AuthForm from '../../Components/AUTH/AuthForm'
+
 
 const Auth = () => {
   return (
@@ -13,7 +14,7 @@ const Auth = () => {
      </Box>
       {/* Right Hand side */}
       <VStack spacing={4} align={"stretch"}>
-    <AuthForm/>
+       <AuthForm/>
     <Box textAlign={"center"}>Get The App.</Box>
     <Flex gap={5} justifyContent={"center"}>
        <Image src='/playstore.png' h={"10"} alt='play-store'/>
